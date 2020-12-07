@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap");
+
+.s4 {
+  background-image: url("../img/s4i1.png");
+  width: 1080px;
+  height: 980px;
+  background-position: right;
+  background-size: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-shadow: 3px -4px 5px rgba(84, 82, 79, 0.36);
+  position: relative;
+  transform: translateY(-180px);
+
+  .text-container {
+    width: 481px;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 83px;
+    position: relative;
+    text-align: right;
+    transform: translateX(-50px);
+    p:nth-of-type(1) {
+      color: #deb37e;
+    }
+    p:nth-of-type(2) {
+      width: 500px;
+    }
+  }
+}

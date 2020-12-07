@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap");
+
+.s3 {
+  background-color: #7f7770;
+  height: 765px;
+  width: 1080px;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .shape4-container {
+    max-width: 1110px;
+    width: 1110px;
+    position: absolute;
+    top: 4250px;
+    right: 133px;
+    overflow: hidden;
+    img.shape4 {
+      width: 150% !important;
+    }
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+    position: relative;
+    transform: translateY(170px);
+    h3 {
+      color: white;
+      font-family: "Open Sans";
+      text-align: center;
+      font-size: 58px;
+      font-weight: 500;
+    }
+    p {
+      color: #dbdbdb;
+      font-family: "Open Sans";
+      text-align: center;
+      font-size: 29px;
+      width: 905px;
+    }
+  }
+
+  .shadow2 {
+    background-image: url("../img/shadow2.png");
+    width: 500px;
+    height: 340px;
+    background-position: right;
+    background-size: cover;
+    float: left;
+    transform: translate(-400px, -170px);
+  }
+}

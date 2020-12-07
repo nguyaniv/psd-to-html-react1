@@ -1,0 +1,53 @@
+main.main-page-container {
+  width: 1080px;
+  max-width: 1080px;
+  height: 8000px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  .shape1 {
+    position: relative;
+    transform: translate(0, -60px);
+  }
+
+  .shape2 {
+    position: relative;
+    width: 150% !important;
+    height: 130px;
+    transform: translate(0, 100px);
+  }
+  .shape3 {
+    position: relative;
+    width: 150% !important;
+    transform: translate(0, -70px);
+    z-index: 1;
+  }
+  .shape4 {
+    position: relative;
+    width: 150% !important;
+    transform: translate(0, -250px);
+  }
+  .shape5 {
+    position: relative;
+    width: 150% !important;
+    height: 100px;
+    transform: translate(0, -600px);
+    z-index: 1;
+  }
+  .shape6 {
+    position: relative;
+    width: 150% !important;
+    transform: translate(0, -1200px);
+    z-index: 1;
+  }
+
+  .shadow3 {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    transform: translate(350px, -1000px);
+  }
+}

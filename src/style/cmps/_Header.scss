@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
+section.header {
+  height: 800px;
+  width: 1080px;
+  background-image: url("../img/header.png");
+  background-size: cover;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  .text-contaier {
+    height: 380px;
+    width: 536px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    .text {
+      h1 {
+        font-size: 75px;
+        width: 500px;
+        font-family: "Open Sans";
+        text-shadow: 3px -4px 5px rgba(84, 82, 79, 0.22);
+        line-height: normal;
+        color: #deb37e;
+      }
+      p {
+        color: #54524f;
+        font-style: italic;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 4.61px;
+      }
+    }
+
+    .sub-text {
+      height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      button {
+        width: 218px;
+        font-family: "Open Sans";
+        font-size: 25px;
+        font-weight: 800;
+        color: #776c64;
+        border-radius: 10px;
+        background-color: #ffffff;
+      }
+
+      p {
+        width: 475px;
+        color: #54524f;
+        font-family: "Open Sans";
+        font-size: 17px;
+        letter-spacing: 0.96px;
+        font-style: italic;
+        text-align: left;
+      }
+    }
+  }
+}

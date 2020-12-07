@@ -1,0 +1,53 @@
+.s6 {
+  height: 900px;
+  background-color: #deb37e;
+  width: 100%;
+  position: relative;
+  transform: translateY(-1100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    text-align: center;
+    width: 900px;
+    h1 {
+      font-family: "Open Sans";
+      font-size: 73px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+    }
+
+    p {
+      font-family: "Open Sans";
+      font-size: 28px;
+      color: #54524f;
+    }
+    .email {
+      input {
+        height: 40px;
+        width: 500px;
+        border-radius: 30px;
+      }
+
+      button {
+        background-color: #54524f;
+        color: white;
+        cursor: pointer;
+        height: 46px;
+        width: 150px;
+        border: none;
+        border-radius: 20px;
+        position: relative;
+        transform: translate(-40px, 3px);
+        font-family: "Open Sans";
+        font-size: 21px;
+        font-weight: 500;
+      }
+    }
+  }
+}
